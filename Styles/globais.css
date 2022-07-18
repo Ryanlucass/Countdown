@@ -1,0 +1,31 @@
+html{
+
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --background: #F6FAFF
+    --text-color: #9C9AB6;
+
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box
+}
+
+body{
+    /* sempre de onde começa e termina a tela independente do dispositivo */
+    height: 100vh;
+    background: var(--background);
+} 
+body{
+    font-size: clamp(14px,11.6rem,2vw);
+    font-family: Poppins, sans-serif;
+}
+
+
+
+
