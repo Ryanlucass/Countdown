@@ -1,14 +1,17 @@
 html{
 
+    /* Definindo variávies de cores */
     --black: #4D4C59;
     --purple: #6C63FF;
     --light-grey: #C8C8C8;
     --background: #F6FAFF
     --text-color: #9C9AB6;
 
+    /* Facilitando na hora saber o em das propriedades*/
     font-size: 62.5%;
 }
 *{
+    /* Zerando as configurações pré colocadas do navegador */
     margin: 0;
     padding: 0;
     border: none;
@@ -16,15 +19,25 @@ html{
     box-sizing: border-box
 }
 
+p{
+    font-size: 1.8rem;
+}
+
 body{
     /* sempre de onde começa e termina a tela independente do dispositivo */
     height: 100vh;
     background: var(--background);
-} 
-body{
+
     font-size: clamp(14px,11.6rem,2vw);
     font-family: Poppins, sans-serif;
+
+   
 }
+
+.content{
+    width: 100%;
+}
+
 
 
 
