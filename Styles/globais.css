@@ -21,6 +21,14 @@ html{
 
 p{
     font-size: 1.8rem;
+    color: var(--light-grey);
+}
+
+h2{
+    color: var(--purple);
+    font-weight: 600;
+    /* Espaçamento entre as letras*/
+    letter-spacing: 0.5rem;
 }
 
 body{
@@ -29,16 +37,43 @@ body{
     background: var(--background);
 
     font-size: clamp(14px,11.6rem,2vw);
-    font-family: Poppins, sans-serif;
+    font-family: Poppins, sans-serif;  
 
-   
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .content{
     width: 100%;
 }
 
+/* botão global */
+a{
+    font-size: 1.8rem;
+    color: var(--light-grey);
+}
+.input{
+    padding: .8rem;
+    border-radius: .8rem;
+    background-color: var(--purple);
+    /* Para ficar com o cursos de mão */
+    cursor: pointer;
+    width: 16rem;
 
+    margin: auto;
+    margin-top: 3rem;
 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 
+    transition: .2s;
+}
 
+.input:hover{
+    filter: brightness(1.2);
+}
+
+#rodape img{
+    height: 100%;
+}
